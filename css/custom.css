@@ -1,0 +1,246 @@
+@charset "utf-8";
+/*
+ * Columbia Theme
+ * Custom Theme Styles
+ * File: css/custom.css
+ *
+ */
+
+/********************************************************/
+/* Header                                               */
+/********************************************************/
+
+
+#menumodal .modal-header {
+  background-color: #333 !important;
+}
+
+.socialicon:hover {
+  color: #DA4453 !important;
+}
+
+/********************************************************/
+/* Home page                                            */
+/********************************************************/
+
+.padding_competenze {
+  padding: 50px 0
+}
+
+.btn-chiara {
+  color: white !important;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  width: 250px;
+  margin: auto;
+}
+
+.btn-chiara a {
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+/*a.btn-chiara:hover {
+  border: 3px solid #777;;
+  color: #777
+}
+a.btn-chiara {
+  padding: 10px;
+  text-decoration: none;
+  border: 3px solid #F26F70;
+  margin-top: 15px;
+  top: 20px;
+  position: relative;
+}*/
+
+.margin-bottom-chiara {
+  margin-bottom: 30px;
+}
+
+/********************************************************/
+/* Profilo                                              */
+/********************************************************/
+
+h3.lineatempo {
+  margin-bottom: 3px;
+}
+
+.grassetto {
+  font-family: 'PT Serif', Georgia, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size:16px;
+  letter-spacing: 0px;
+}
+
+.timeline-label.istruzione{
+  background: #555 !important;
+}
+
+.timeline-label.istruzione p {
+  color:#f5f5f6 !important;
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label.istruzione:after {
+  border-color: transparent #555 transparent transparent;
+}
+
+.line {
+  top: -3%;
+  height: 106%;
+  bottom: 20px;
+}
+
+.present {
+  top: -3%;
+}
+
+.born {
+  bottom: -3%;
+}
+
+.dot_tp {
+  top: -3%;
+}
+
+.dot_bt {
+  bottom: -3%;
+}
+
+/********************************************************/
+/* Sortable Portfolio                                   */
+/********************************************************/
+
+#projects .projects .label-text h3 {  /*sovrascrive line-height line 172 style.css*/
+  font-size: 16px;
+  line-height: 130% !important;
+}
+
+#projects .projects .label-text h3 a {
+  color: #777777;
+  font-family: 'Vollkorn', Georgia, serif;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: normal;
+  letter-spacing: 0px;
+  text-transform: none !important;
+}
+
+#projects .projects img {
+  max-width:100%;
+  position: relative;
+}
+
+#projects .projects .label-bg {
+  background: #f3f3f3;
+}
+
+#projects .projects .label-fg {
+  max-width:100%;
+  position: relative;
+  font-size: 24px;
+  background: #f3f3f3;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.grassetto-portfolio {
+  font-family: 'PT Serif', Georgia, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size:22px;
+  letter-spacing: 0px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {  
+  #projects .projects {
+    width:33%;
+  }
+  #projects .projects .label-text h3 a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {  
+  #projects .projects {
+    width:50%;
+  }
+  #projects .projects .label-text h3 a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+/********************************************************/
+/* Sortable Portfolio single post                       */
+/********************************************************/
+
+h4{
+  line-height:150% !important;
+}
+
+h4 a {
+  letter-spacing:0 !important;
+}
+
+.titolo-highlight {
+  color: #FFF;
+  font-family: 'PT Serif','Vollkorn', Georgia, serif;
+  font-size: 40px;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 700;
+  /*letter-spacing: 0px;*/
+  /*padding-top: 45px;*/
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+.element-credit {
+  color: #999;
+  font-family: 'Vollkorn', Georgia, serif;
+  font-size: 12px;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: normal;
+  letter-spacing: 0px;
+  padding-bottom: 45px;
+}
+
+.creditpadding {
+  padding: 5px 25px 80px 25px
+}
+
+.creditpadding p {
+  padding-right: 48px;
+}
+
+@media (min-width: 768px) {
+  .creditpadding {
+  padding: 5px 80px 80px 80px
+  }
+}
+
+@media (max-width: 767px) {
+  .creditpadding {
+  padding: 5px 30px 80px 30px
+  }
+}
+
+
+/********************************************************/
+/* Footer                                               */
+/********************************************************/
+
+h3.contacts{
+  color:white;
+}

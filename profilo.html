@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" /><!-- Disable horrible auto-skype for contact numbers in IE -->
+    <meta name="description" content="Editor, blogger, social media addict, gourmet &amp; travel maniac">
+    <meta name="author" content="Chiara Checchini">
+    <meta name="keywords" content="content, editor, blog, scrittura">
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+
+    <title>Chiara Checchini - Profilo</title><!-- Your page/site title -->
+
+    <!-- Load Our CSS - Do not alter the load order -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap Core - ALways load first -->
+    <link href="css/animate.css" rel="stylesheet"><!-- Animatations -->
+    <link href="css/icomoon.css" rel="stylesheet"><!-- Icon Font -->
+    <link href="css/owl.carousel.css" rel="stylesheet"><!-- Owl Carousel/slide -->
+    <link href="css/flexslider.css" rel="stylesheet"><!-- Flexslider styles for #blogfeed -->
+    <link href="css/style-grapefruit.css" rel="stylesheet"><!-- Main theme stylesheet -->
+    <link href="css/custom.css" rel="stylesheet"><!-- Custom styles - Always load last -->
+
+    <!-- Load our fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+
+    <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
+    <!--[if IE]>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE8 -->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE9 -->
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/ie9.css" />
+    <![endif]-->
+
+    <!-- Load our jQuery, with an alternative source/fallback to our own version if request is unavailable -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="profilo">
+
+    <!-- Our page loader -->
+    <div class="loadstack">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- ============================ Main menu, (modal window) ============================ -->
+
+    <div id="menumodal" class="modal fade" tabindex="-1" role="dialog" aria-label="menumodalLabel" aria-hidden="true">
+
+        <!-- Close modal trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Esplora</h3>
+        </div>
+
+        <!-- Menu content -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- Logo for desktops/large screens -->
+                    <div id="menumodalLabel" class="modal-title">
+                        <div class="modallogo">
+                            <!-- <img src="img/logo.png"> -->
+                        </div>
+                        <div class="modaltagline">
+                            <h3></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <ul class="row motion">
+                        <li class="col-md-4 col-sm-6 two">
+                            <div class="menubg" style="background-image: url('img/menu/home.jpg')"></div>
+                            <a href="index.html" title="Chiara Checchini - Home page">Home</a>
+                        </li>
+                        <li class="col-md-4 col-sm-6 four">
+                            <div class="menubg" style="background-image: url('img/menu/profilo.jpg')"></div>
+                            <a href="profilo.html" title="Chiara Checchini - Profilo">Profilo</a>
+                        </li>
+                        <li class="col-md-4 col-sm-6 eight">
+                            <div class="menubg" style="background-image: url('img/menu/portfolio.jpg')"></div>
+                            <a href="portfolio.html" title="Chiara Checchini - Portfolio">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h3>Contattami</h3>
+                    <h4>info@chiarachecchini.com</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================ End Main Navigation ==================================== -->
+
+    <!-- ============================ Social menu, (modal window) ============================ -->
+
+    <div id="socialmodal" class="modal fade" tabindex="-1" role="dialog" aria-label="socialmodalLabel" aria-hidden="true">
+
+        <!-- Menu Trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Be Social</h3>
+        </div>
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3>Seguimi</h3>
+                    <hr class="mini white central">
+                    <ul class="socialicons motion">
+                        <li class="two twitter"><a href="https://twitter.com/la_checc" title="Twitter" class="socialicon" target="_blank"><span class="icon-twitter"></span></a></li>
+                        <li class="four"><a href="http://pinterest.com/lachecc" title="Pinterest" class="socialicon" target="_blank"><span class="icon-pinterest"></span></a></li>
+                        <li class="six"><a href="https://www.linkedin.com/profile/view?id=8977401" title="Linkedin" class="socialicon" target="_blank"><span class="icon-linkedin"></span></a></li>
+						<li class="eight"><a href="https://instagram.com/travel_vitamins/" title="Instagram" class="socialicon" target="_blank"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =============================== End social menu ============================== -->
+
+    <!-- ============================ Header/fixed sidebar ============================ -->
+
+    <header id="header">
+        
+        <!-- Main menu toggle -->
+        <button class="toggle this" data-toggle="modal" data-target="#menumodal">
+            <span class="menu-bar bar-1"></span>
+            <span class="menu-bar bar-2"></span>
+            <span class="menu-bar bar-3"></span>
+        </button>
+        
+        <!-- Second logo for mobiles/tablets only. Maximum height of 65px -->
+        <div class="mobile_logo">
+            <!-- <img src="img/logo.png"> -->
+        </div>      
+
+    </header>
+
+    <!-- Social menu toggle - keep outside of header to prevent horrible positioning problem on ipads -->
+    <button class="social" data-toggle="modal" data-target="#socialmodal">
+        <span class="icon-share"></span>
+    </button>
+    <!-- End header/fixed sidebar -->
+
+    <!-- ============================ Start the page content ============================ -->
+
+    <!-- Leading Page Container -->
+    <!-- Always keep all page content wrapped in this div, with id="wrapper" and class="page-content" -->
+    <div id="wrapper" class="page-content">
+
+        <!-- ============================ Section Start ============================ -->
+
+        <section id="two" class="container wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row padding">
+                <div class="col-xs-12 centertext">
+                    <h3>Profilo</h3>
+                    <hr class="mini central">
+                    <h1>Chiara Checchini</h1>
+                    <hr class="title">
+                    <p><i>&ldquo;La comunicazione avviene quando, oltre al messaggio, passa anche un supplemento di anima.&rdquo;</i><br><br><span style="font-size:16px">Henri Bergson</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section End ============================== -->
+
+        <!-- ============================ Section ten: full-width image ============================ -->
+
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 element-img parallax" style="background-image: url('img/bio.jpg'); height: 500px">
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section End ============================== -->
+
+        <!-- ============================ Section Start ============================ -->
+
+        <section id="three" class="white">
+            <div class="container padding">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Timeline</h3>
+                        <hr class="mini">
+                        <p>Di seguito una bio con i momenti formativi e professionali più significativi.<br>
+                        Per maggiori dettagli scarica il <a href="download/Chiara_Checchini-CV.pdf" target="_blank">cv completo.</a></p>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <div class="row">
+                    <div class="timeline-centered">
+                        <div class="line"></div>
+                        <div class="present">Presente</div>
+                        <div class="dot_tp"></div>
+                        <div class="born">Nasco il 27 Settembre 1980 a Milano</div>
+                        <div class="dot_bt"></div>
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-secondary"></div>
+                                <div class="timeline-label">
+                                    <p>2015 - oggi</p>
+                                    <h3 class="lineatempo"><strong>FONTANA MILANO 1915</strong></h3>
+<p><i>Pelletteria di lusso</i><br>
+<span class="grassetto">Communication Specialist</span>: pianificazione delle attività di comunicazione tradizionale e digitale.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-secondary"></div>
+                                <div class="timeline-label">
+                                    <p>2015</p>
+                                    <h3 class="lineatempo"><strong>MED MAP</strong></h3>
+<p><i>App sviluppata da TeriaLab</i><br>
+<span class="grassetto">Social media manager</span></p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-secondary"></div>
+                                <div class="timeline-label">
+                                    <p>2014 – 2015</p>
+                                    <h3 class="lineatempo"><strong>OFICINA D’IMPRESA</strong>, Rovereto (TN)</h3>
+<p><i>Società di Consulenza strategica e marketing</i><br>
+<span class="grassetto">Content Manager</span>: Pianificazione della comunicazione per clienti del settore food/turismo.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-secondary"></div>
+                                <div class="timeline-label">
+                                    <p>2014</p>
+                                    <h3 class="lineatempo"><strong>L'ADIGE</strong>, Trento</h3>
+<p><i>Quotidiano indipendente del Trentino-Alto Adige</i><br>
+<span class="grassetto">Corrispondente</span>: cronaca Valli trentine.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-success"></div>
+                                <div class="timeline-label istruzione">
+                                    <p>2013</p>
+                                    <h3 class="lineatempo"><strong>Corso di digital marketing</strong>, Olos Interactive (Milano)</h3>
+<p>40 ore, maggio – luglio 2013</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-secondary"></div>
+                                <div class="timeline-label">
+                                    <p>2012 - 2013</p>
+                                    <h3 class="lineatempo"><strong>MICROCINEMA SPA</strong>, Legnano (MI)</h3>
+<p><i>Fornitore di tecnologia digitale e distributore cinematografico</i><br>
+<span class="grassetto">Project Manager</span>: Progetti espansione estero: comunicazione, promozione e relazioni commerciali.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-success"></div>
+                                <div class="timeline-label istruzione">
+                                    <p>2010 - 2011</p>
+                                    <h3 class="lineatempo"><strong>MABAC IV, Master Universitario di II livello in Management dei beni e delle attività culturali</strong>, ESCP-EAP (Parigi) e Università Ca’ Foscari (Venezia)</h3>
+<p>Tesi sul cinema digitale, “On demand e cinema indipendente: come riportare il pubblico in sala ai tempi di internet”.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-secondary"></div>
+                                <div class="timeline-label">
+                                    <p>2008 - 2010</p>
+                                    <h3 class="lineatempo"><strong>OSSERVATORI ICT DELLA SCHOOL OF MANAGEMENT DEL POLITECNICO DI MILANO</strong></h3>
+<p><span class="grassetto">Communications and Event Planner</span>: pianificazione editoriale, redazione contenuti per comunicazione interna ed esterna, gestione del canale ufficiale youtube, monitoraggio dei siti aziendali su google analytics, rassegna stampa quotidiana, gestione dei rapporti con la stampa.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-secondary"></div>
+                                <div class="timeline-label">
+                                    <p>2007</p>
+                                    <h3 class="lineatempo"><strong>CONSOLATO GENERALE D’ITALIA A HOUSTON</strong>, Texas</h3>
+<p><i>Tirocinio formativo (da bando MAE/CRUI) presso l’ufficio culturale del Consolato</i><br>
+<span class="grassetto">Assistente comunicazione e organizzazione eventi</span>: redazione contenuti, pianificazione delle attività culturali di Houston e della circoscrizione consolare.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-success"></div>
+                                <div class="timeline-label istruzione">
+                                    <p>1999 - 2006</p>
+                                    <h3 class="lineatempo"><strong>Laurea quadriennale in Lettere Moderne, Indirizzo Storia dello spettacolo</strong>, Università degli Studi di Milano</h3>
+<p>Tesi multidisciplinare tra storia e cinema dal titolo “Immagini dal conflitto italo-turco, 1911-1912”, votazione 110/110.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon bg-success"></div>
+                                <div class="timeline-label istruzione">
+                                    <p>1994 - 1999</p>
+                                    <h3 class="lineatempo"><strong>Maturità Classica presso il Liceo Ginnasio Giuseppe Parini</strong>, Milano</h3>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section End ============================== -->
+
+        <!-- ============================ Section: full-width image ============================ -->
+
+        <!-- <section class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 element-img parallax" style="background-image: url('img/chiara_profilo3.jpg'); height: 500px">
+                </div>
+            </div>
+        </section> -->
+
+        <!-- ============================ Section End ============================== -->
+
+<!-- ============================ Footer ============================ -->
+
+        <footer id="four" class="padding">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3 class="contacts"><span class="icon-location" style="color:#da4453;"></span> Milano</h3>
+                        <!-- <h3 class="contacts"><span class="icon-phone"></span> 555-343-443</h3> -->
+                        <h3 class="contacts"><span class="icon-bubble2" style="color:#da4453;"></span> info@chiarachecchini.com</h3>
+                        <br>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p></p>
+                        <small>&copy; Copyright 2015 Chiara Checchini. All rights reserved.</small>
+                        <hr class="mini central light-grey-dk">
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+    <!-- / END page #wrapper -->
+    </div>
+
+    <!-- ========== Load our scripts - keep positioned at the end of your document ========== -->
+
+    <script src="js/bootstrap.min.js"></script><!-- Bootstrap core - always load first -->
+    <script src="js/wow.min.js"></script><!-- WoW animations -->
+    <script src="js/jquery.nav.js"></script><!-- Left-hand bullet navigation -->
+    <script src="js/jquery.nicescroll.min.js"></script><!-- Scrollbars for whole page and main navigation -->
+
+    <script src="js/owl.carousel.min.js"></script><!-- Owl carousel/slider - per pagine portfolio item-->
+
+    <script src="js/jquery.counterup.min.js"></script><!-- counterup plugin for increasing page stats -->
+    <script src="js/waypoints.min.js"></script><!-- Waypoints, needed for 'counterup' plugin -->
+    <script src="js/jquery.fitvids.js"></script><!-- Fitvids plugin, (responsive videos) -->
+    <script src="js/jquery.flexslider-min.js"></script><!-- Flexslider -->
+    <script src="js/jquery.easing.min.js"></script><!-- Easing plugin, for opacity fade on menu background images -->
+
+    <script src="js/jquery.mixitup.min.js"></script><!-- MixItUp plugin - for sortable portfolio -->
+    
+    <script src="js/scripts.js"></script><!-- Custom JS functions - always load last -->
+
+
+    <!-- Page-specific JS functions - these are functions that only occur on this specific page, so we DON'T want these placed in our scripts.js file as this file is loaded on every page for global site functions.  -->
+
+    <!-- Initialize CounterUp plugin for rounding up/animated statistics -->
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+
+    <!-- Initialize fitvids.js plugin for responsive videos -->
+    <script>
+        $(document).ready(function(){
+            $(".fitvids").fitVids();
+        });
+    </script>
+
+    <!-- Teamimonials Carousel -->
+    <script>
+        $(document).ready(function(){
+            $('#testo-carousel').carousel({
+                pauseOnHover: true,
+                interval: 4000,
+            });
+        });
+    </script>
+
+    <!-- Initialize flexslider for blogfeed slider -->
+    <script>
+        // second-flexslider
+        $(window).load(function() {
+          $('#blogslider').flexslider({
+            animation: "slide",
+            directionNav: false,
+            controlNav: false,
+            touch: false,
+            slideshow: false
+          });
+        });
+        $('.prev, .next').on('click', function() {
+          var href = $(this).attr('href');
+          $('#blogslider').flexslider(href)
+          return false;
+        })
+    </script>
+
+
+    <!-- ========== per pagina portfolio ========== -->
+
+    <!-- Initialize MixItUp plugin -->
+    <script>
+      $(function () {
+      var filterList = {
+        init: function () {
+        
+          $('#projects').mixitup({
+            targetSelector: '.projects',
+            filterSelector: '.filter',
+            effects: ['fade'],
+            easing: 'snap',
+            // call the hover effect
+            onMixEnd: filterList.hoverEffect()
+          });       
+        
+        },
+        
+        hoverEffect: function () {
+          // Hover Effect
+          $('#projects .projects').hover(
+            function () {
+              $(this).find('.label').stop().animate({opacity: 1}, 200, 'easeOutQuad');
+              $(this).find('.label-text h3').stop().animate({top: 0}, 200, 'easeOutQuad');
+            },
+            function () {
+              $(this).find('.label').stop().animate({opacity: 0}, 200, 'easeInQuad');
+              $(this).find('.label-text h3').stop().animate({top: '20px'}, 200, 'easeInQuad');
+            }   
+          );
+        }
+
+      };
+      filterList.init();
+      });
+    </script>
+
+    <!-- Initialize Owl carousel/slider with desired settings - see http://owlgraphic.com/owlcarousel/#how-to for more options -->
+    <script>
+        $("#slider").owlCarousel({
+          autoPlay : false,
+          stopOnHover : true, //Set AutoPlay to 3 seconds
+          items : 2,
+          itemsDesktop: [1199,2],
+          itemsDesktopSmall: [979,2],
+          itemsTablet: [768,2],
+          itemsMobile: [479,1],
+          rewindNav : false,
+          navigation: true,
+          pagination: false,
+          autoHeight: false,
+          navigationText : ['<span class="icon-arrow-left2"></span>','<span class="icon-arrow-right2"></span>']
+        });
+    </script>
+
+
+    <!-- ========== Insert your Google Analytics code below this line ========== -->
+
+    <script>
+    
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-59845985-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <!-- ======================== End Google Analytics ========================= -->
+
+</body>
+
+</html>

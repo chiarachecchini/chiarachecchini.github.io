@@ -1,0 +1,116 @@
+@charset "utf-8";
+/*
+ * Columbia Theme
+ * Custom Theme Styles
+ * File: css/custom.css
+ *
+ */
+
+/********************************************************/
+/* Home page                                            */
+/********************************************************/
+
+.padding_competenze {
+  padding: 50px 0
+}
+
+.btn-chiara {
+  color: white;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  width: 250px;
+  margin: auto;
+}
+
+.btn-chiara a {
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+.margin-bottom-chiara {
+  margin-bottom: 30px;
+}
+
+/********************************************************/
+/* Sortable Portfolio                                   */
+/********************************************************/
+
+#projects .projects .label-text h3 {  /*sovrascrive line-height line 172 style.css*/
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#projects .projects .label-text h3 a {
+  color: #777777;
+  font-family: 'Vollkorn', Georgia, serif;
+  font-style: normal;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-weight: normal;
+  letter-spacing: 0px;
+}
+
+#projects .projects img {
+  max-width:100%;
+  position: relative;
+}
+
+#projects .projects .label-bg {
+  background: #f3f3f3;
+}
+
+#projects .projects .label-fg {
+  max-width:100%;
+  position: relative;
+}
+
+/********************************************************/
+/* Sortable Portfolio single post                       */
+/********************************************************/
+
+.titolo-highlight {
+  color: #F08978;
+  font-family: 'Vollkorn', Georgia, serif;
+  font-size: 60px;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+.element-credit {
+  color: #999;
+  font-family: 'Vollkorn', Georgia, serif;
+  font-size: 12px;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: normal;
+  letter-spacing: 0px;
+  padding-bottom: 45px;
+}
+
+.creditpadding {
+  padding: 5px 25px 80px 25px
+}
+
+@media (min-width: 768px) {
+  .creditpadding {
+    padding: 5px 80px 80px 80px
+  }
+}
+
+@media (max-width: 767px) {
+  .creditpadding {
+    padding: 5px 30px 80px 30px
+  }
+}

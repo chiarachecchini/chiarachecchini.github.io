@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" /><!-- Disable horrible auto-skype for contact numbers in IE -->
+    <meta name="description" content="Editor, blogger, social media addict, gourmet &amp; travel maniac">
+    <meta name="author" content="Chiara Checchini">
+    <meta name="keywords" content="content, editor, blog, scrittura">
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+
+    <title>Chiara Checchini - blog</title><!-- Your page/site title -->
+
+    <!-- Load Our CSS - Do not alter the load order -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap Core - ALways load first -->
+    <link href="css/animate.css" rel="stylesheet"><!-- Animatations -->
+    <link href="css/icomoon.css" rel="stylesheet"><!-- Icon Font -->
+    <link href="css/owl.carousel.css" rel="stylesheet"><!-- Owl Carousel/slide -->
+    <link href="css/flexslider.css" rel="stylesheet"><!-- Flexslider styles for #blogfeed -->
+    <link href="css/style-grapefruit.css" rel="stylesheet"><!-- Main theme stylesheet -->
+    <link href="css/custom.css" rel="stylesheet"><!-- Custom styles - Always load last -->
+
+    <!-- Load our fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+
+    <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
+    <!--[if IE]>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE8 -->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE9 -->
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/ie9.css" />
+    <![endif]-->
+
+    <!-- Load our jQuery, with an alternative source/fallback to our own version if request is unavailable -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="portfolio-armadillo">
+
+    <!-- Our page loader -->
+    <div class="loadstack">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- ============================ Main menu, (modal window) ============================ -->
+
+    <div id="menumodal" class="modal fade" tabindex="-1" role="dialog" aria-label="menumodalLabel" aria-hidden="true">
+
+        <!-- Close modal trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Esplora</h3>
+        </div>
+
+        <!-- Menu content -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- Logo for desktops/large screens -->
+                    <div id="menumodalLabel" class="modal-title">
+                        <div class="modallogo">
+                            <!-- <img src="img/logo.png"> -->
+                        </div>
+                        <div class="modaltagline">
+                            <h3></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <ul class="row motion">
+                        <li class="col-md-4 col-sm-6 two">
+                            <div class="menubg" style="background-image: url('img/menu/home.jpg')"></div>
+                            <a href="index.html" title="Chiara Checchini - Home page">Home</a>
+                        </li>
+                        <li class="col-md-4 col-sm-6 four">
+                            <div class="menubg" style="background-image: url('img/menu/profilo.jpg')"></div>
+                            <a href="profilo.html" title="Chiara Checchini - Profilo">Profilo</a>
+                        </li>
+                        <li class="col-md-4 col-sm-6 eight">
+                            <div class="menubg" style="background-image: url('img/menu/portfolio.jpg')"></div>
+                            <a href="portfolio.html" title="Chiara Checchini - Portfolio">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h3>Contattami</h3>
+                    <h4>info@chiarachecchini.com</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================ End Main Navigation ==================================== -->
+
+    <!-- ============================ Social menu, (modal window) ============================ -->
+
+    <div id="socialmodal" class="modal fade" tabindex="-1" role="dialog" aria-label="socialmodalLabel" aria-hidden="true">
+
+        <!-- Menu Trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Be Social</h3>
+        </div>
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3>Seguimi</h3>
+                    <hr class="mini white central">
+                    <ul class="socialicons motion">
+                        <li class="two twitter"><a href="https://twitter.com/la_checc" title="Twitter" class="socialicon" target="_blank"><span class="icon-twitter"></span></a></li>
+                        <li class="four"><a href="http://pinterest.com/lachecc" title="Pinterest" class="socialicon" target="_blank"><span class="icon-pinterest"></span></a></li>
+                        <li class="six"><a href="https://www.linkedin.com/profile/view?id=8977401" title="Linkedin" class="socialicon" target="_blank"><span class="icon-linkedin"></span></a></li>
+						<li class="eight"><a href="https://instagram.com/travel_vitamins/" title="Instagram" class="socialicon" target="_blank"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =============================== End social menu ============================== -->
+
+    <!-- ============================ Header/fixed sidebar ============================ -->
+
+    <header id="header">
+        
+        <!-- Main menu toggle -->
+        <button class="toggle this" data-toggle="modal" data-target="#menumodal">
+            <span class="menu-bar bar-1"></span>
+            <span class="menu-bar bar-2"></span>
+            <span class="menu-bar bar-3"></span>
+        </button>
+        
+        <!-- Second logo for mobiles/tablets only. Maximum height of 65px -->
+        <div class="mobile_logo">
+            <!-- <img src="img/logo.png"> -->
+        </div>      
+
+    </header>
+
+    <!-- Social menu toggle - keep outside of header to prevent horrible positioning problem on ipads -->
+    <button class="social" data-toggle="modal" data-target="#socialmodal">
+        <span class="icon-share"></span>
+    </button>
+    <!-- End header/fixed sidebar -->
+
+    <!-- ============================ Start the page content ============================ -->
+
+    <!-- Leading Page Container -->
+    <!-- Always keep all page content wrapped in this div, with id="wrapper" and class="page-content" -->
+    <div id="wrapper" class="page-content">
+
+        <!-- ============================ Section Start ============================ -->
+
+        <section class="container-fluid titlebar">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="pull-left">Indian dust</h3>
+                    <h3 class="pull-right"><a href="portfolio.html" class="back" title="Back">Back <span class="icon-undo2"></span></a></h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section End ============================== -->
+
+        <!-- ============================ Section 1 foto Start ============================ -->
+
+        <section id="one" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 element-img parallax" style="background-image: url('img/portfolio/indian-dust/cochin1920x800.jpg'); height: 500px">
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section 1 foto End ============================== -->
+
+        <!-- ============================ Section 1 text Start ============================ -->
+
+        <section class="container-fluid white">
+            <div class="row">
+                <div class="col-md-8 creditpadding">
+                    <div class="element-credit">Foto: Chiara Checchini</div>
+                    <h3>Corto a Cochin</h3>
+                    <hr class="mini">
+                    <p>Cochin, le sue isole unite alla terraferma da ponti sull’acqua salmastra. Un posto fatato, dal fascino irresistibile, paragonabile a quello di Venezia.<br>
+La laguna, i canali e il porto, ancora oggi uno dei più grandi dell’India, con la sua storia.<br>
+Il via vai di genti, i commercianti dell’est, con le loro spezie, le loro sete, e quelli dell’ovest, qui a riempire le stive delle loro navi di chiodi di garofano e noce moscata.<br>
+La sovrapposizione di dominatori, il crogiolo di culture.<br>
+E oggi, le loro tracce immobili. Solo quelle, impolverate e vivide, tra i vicoli silenziosi della sonnacchiosa Mattancherry. Le case basse, con i tetti di tegole rosse, i patii, i muri intonacati di bianco, le persiane e le porte azzurre. E poi le chiese. Questa è l’eredità del Portogallo. Era il 1503 quando arrivò qui sulle caravelle di Vasco da Gama, le cui spoglie riposarono qui per qualche tempo, nella chiesa di San Francesco, la più antica di tutta l’India. Violenta la dominazione lusitana, ma poco invasiva. Calicut, Daman, Diu, Cochin: solo quattro teste di ponte nel Malabar, la costa sud- occidentale dell’India, per controllare i commerci marittimi.<br>
+Poco distante il Dutch cemetary, un fazzoletto di erba incolta, con lapidi che a mala pena si intravedono. Ecco la traccia di un altro dominatore: l’Olanda, che scalzò il piccolo e potente stato iberico a metà del ‘600, per essere scalzata a sua volta dagli inglesi, un secolo dopo.<br>
+Più avanti un grande campo di terra rossa, dove formicolano ragazzi impegnati in una partita di cricket, il più significativo retaggio britannico, insieme alla guida a sinistra.<br>
+E poi ci si addentra a Jew town, il quartiere ebraico. I primi ebrei, in fuga dalla Palestina, vi giunsero 2000 anni fa. Ebbero vita dura con i portoghesi, l’inquisizione fu feroce, anche qui. Oggi la comunità non arriva a venti unità. Resta un dedalo di viuzze, punteggiato di negozi di spezie: polvere di peperoncino, rugginoso masala, minuscoli chicchi di mostarda, preziosi semi di cumino, cardamomo dolciastro, ruvidi grani di pepe. E il susseguirsi di negozi di antiquariato, con venditori dalla voce suadente, che attirano nelle loro botteghe delle meraviglie, tra portali in legno cesellato, bronzee statue pagane e crocifissi, angeli, ossari trafugati dalle chiese. E in fondo, la sinagoga, con i suoi lampadari di vetro di murano, le sue eleganti piastrelle cinesi, dipinte a mano con salici blu.<br>
+All’estremità settentrionale, l’isola è orlata da una lunga spiaggia: a Fort Cochin le enormi reti da pesca, issate come vele su piattaforme in legno, a pochi metri dalla riva, sono una testimonianza del passaggio della Cina, con le sue rotte e i suoi mercantili.<br>
+I pescatori trafficano tra le loro canoe nere- troppo simili a quelle della nostra repubblica marinara- e ripiegano le reti.<br> 
+La vita prosegue, nella malinconica Cochin, così indifferente al suo passato stratificato.<br>
+E mentre i procacciatori di clienti invitano ad acquistare pesce appena pescato per poi farselo immediatamente cucinare sulla griglia, i gatti sonnecchiano all’ombra delle gondole.<br>
+L’ambientazione ideale per un episodio di Corto Maltese. Sarebbe piaciuta a Hugo Pratt, Cochin. E anche al suo marinaio gitano.</p>
+                </div>
+                <div class="meta col-md-4 textpadding dark-grey-dk wow fadeInRight" data-wow-delay="0.4s">
+                    <h3></h3>
+                    <hr class="mini">
+                    <h4>Blog</h4>
+                    <h4>2006</h4>
+                    <br>
+                    <h4>India, Kerala, società, storia, clima, mitologia</h4>
+                    <br>
+                    <h4><a href="http://www.chiarachecchini.com/indiandust/" target="_blank">www.chiarachecchini.com/indiandust/</a></h4>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section 1 text End ============================== -->
+
+        <!-- ============================ Section 2 foto Start ============================ -->
+
+        <section id="two" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 element-img parallax" style="background-image: url('img/portfolio/indian-dust/superstizione1920x800.jpg'); height: 500px">
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section 2 foto End ============================== -->
+
+        <!-- ============================ Section 2 text Start ============================ -->
+
+        <section class="container-fluid white">
+            <div class="row">
+                <div class="col-md-8 creditpadding">
+                    <div class="element-credit">Foto: Chiara Checchini</div>
+                    <h3>Laxmana Rekha</h3>
+                    <hr class="mini">
+                    <p>Per tenere lontani gli scarafaggi, mi resi presto conto che la mia statuina di Ganesh, con la sua aura carica di auspici non bastava. Così, disillusa, mi avventurai nell’atmosfera artificiale del supermercato Varkey’s.<br>
+Qui acquistai una piccola scatola di cartone rosso, decorata da un grazioso scarafaggio. Dentro l’incarto, un banale gesso bianco, all’apparenza innocuo. Un po’ perplessa seguii le istruzioni che dicevano di disegnare una riga davanti alla porta e cerchi intorno ai cestini della spazzatura e alle gambe del letto.<br>
+Il mattino seguente dovetti constatare l’efficacia del gessetto, trovando un’orrida blatta a pancia per aria, proprio in corrispondenza del segno bianco che avevo tracciato sul pavimento.<br>
+Per curiosità cercai su internet l’origine del nome di quel veleno antiscarafaggio, risalendo così a una fonte inaspettatamente mitologica, il Ramayana:<br><br>
+<blockquote>
+   <p>Sita, preoccupata per l’ormai troppo lunga assenza del marito, il dio Rama, faceva continue pressioni sul cognato Laxmana perché questi andasse in cerca del fratello. Laxmana aveva però giurato a Rama di proteggere Sita ad ogni costo e di non perderla di vista. Ma la donna aveva il presentimento che al marito fosse accaduto qualcosa e insisteva. Laxmana alla fine si lasciò convincere, ma prima di partire alla ricerca del fratello con la punta del suo arco tracciò davanti alla porta d’ingresso della casa di Sita una riga, il Laxmana Rekha. Le ordinò quindi di non oltrepassare per nessun motivo al mondo quel segno.</p>
+   <!-- <small>citazione</small> -->
+</blockquote><br>
+La mitica “riga di Laxmana” dà il nome al gessetto con cui gli indiani tracciano, a loro volta, una linea davanti alla loro porta, intimando agli insetti di non varcarla.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section 2 text End ============================== -->
+
+        <!-- ============================ Section 3 foto Start ============================ -->
+
+        <section id="three" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 element-img parallax" style="background-image: url('img/portfolio/indian-dust/vivaldiani1920x800.jpg'); height: 500px">
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section 3 foto End ============================== -->
+
+        <!-- ============================ Section 3 text Start ============================ -->
+
+        <section class="container-fluid white">
+            <div class="row">
+                <div class="col-md-8 creditpadding">
+                    <div class="element-credit">Foto: Chiara Checchini</div>
+                    <h3>I vivaldiani</h3>
+                    <hr class="mini">
+                    <p>A noi vivaldiani, figli delle quattro stagioni, dalla nostra presuntuosa, tracotante, ristretta prospettiva eurocentrica, a noi abituati a pensare al rincorrersi del tempo come al succedersi di fiori, frutti, foglie gialle e bianca neve sui rami degli alberi, adattarsi al clima tropicale risulta difficile. Qui nel sud dell’India, più delle differenze di temperatura, a segnare i vari periodi dell’anno è la presenza delle piogge.<br>
+Le stagioni sono tre: quella umida, quando il monsone scroscia incessante, quella secca, in cui il clima è relativamente fresco, e l’estate, calda e soffocante. Ora siamo in Gennaio, il periodo dell’anno con il clima più fresco. Le temperature sono solo un paio di gradi in meno della norma, eppure gli alberi sono sensibili a questa variazione e perdono le foglie. Il sole è comunque una certezza, una costante. Le nuvole sono rare, e ci si scopre a cercarle nel cielo, invocando pace e momentaneo sollievo.<br>
+Oggi è una di quelle rare giornate bianche, avvolte da una pellicola color Galatina, e il mio umore è alle stelle.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section 3 text End ============================== -->
+
+        <!-- ============================ Section 4 text Start ============================ -->
+
+        <section id="four" class="container wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row padding">
+                <div class="col-xs-12">
+                    <p>Durante i 10 mesi in cui ho vissuto e lavorato in India, a cavallo tra il 2006 e il 2007, ho tenuto il blog indiandust di cui potete leggere alcuni estratti. Pur avendo la forma di un diario, non è uno scritto intimista, ma una sorta di lungo reportage, un collage di racconti di quotidianità e di viaggio, di articoli di giornale e approfondimenti sulla società indiana.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section 4 text End ============================== -->
+
+        <!-- ============================ Section 4 foto Start (Owl Carousel) ============================ -->
+
+        <section class="container-fluid slider">
+            <div class="row">
+                <div class="col-xs-12 nopadding">
+                    <div id="slider">
+                        <!-- <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust1.jpg" alt="Slide One"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust2.jpg" alt="Slide Two"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust3.jpg" alt="Slide Three"></div> -->
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust4.jpg" alt="Slide Four"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust5.jpg" alt="Slide Four"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust6.jpg" alt="Slide Four"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust8.jpg" alt="Slide Four"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust7.jpg" alt="Slide Four"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust9.jpg" alt="Slide One"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust10.jpg" alt="Slide Two"></div>
+                        <!-- <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust11.jpg" alt="Slide Three"></div> -->
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust12.jpg" alt="Slide Four"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust13.jpg" alt="Slide Four"></div>
+                        <!-- <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust14.jpg" alt="Slide Four"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust15.jpg" alt="Slide Four"></div>
+                        <div class="item"><img src="img/portfolio/indian-dust/galleria/indiandust16.jpg" alt="Slide Four"></div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Section 4 foto End ============================== -->
+
+<!-- ============================ Footer ============================ -->
+
+        <footer id="four" class="padding">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3 class="contacts"><span class="icon-location" style="color:#da4453;"></span> Milano</h3>
+                        <!-- <h3 class="contacts"><span class="icon-phone"></span> 555-343-443</h3> -->
+                        <h3 class="contacts"><span class="icon-bubble2" style="color:#da4453;"></span> info@chiarachecchini.com</h3>
+                        <br>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p></p>
+                        <small>&copy; Copyright 2015 Chiara Checchini. All rights reserved.</small>
+                        <hr class="mini central light-grey-dk">
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+    <!-- / END page #wrapper -->
+    </div>
+
+    <!-- ========== Load our scripts - keep positioned at the end of your document ========== -->
+
+    <script src="js/bootstrap.min.js"></script><!-- Bootstrap core - always load first -->
+    <script src="js/wow.min.js"></script><!-- WoW animations -->
+    <script src="js/jquery.nav.js"></script><!-- Left-hand bullet navigation -->
+    <script src="js/jquery.nicescroll.min.js"></script><!-- Scrollbars for whole page and main navigation -->
+
+    <script src="js/owl.carousel.min.js"></script><!-- Owl carousel/slider - per pagine portfolio item-->
+
+    <script src="js/jquery.counterup.min.js"></script><!-- counterup plugin for increasing page stats -->
+    <script src="js/waypoints.min.js"></script><!-- Waypoints, needed for 'counterup' plugin -->
+    <script src="js/jquery.fitvids.js"></script><!-- Fitvids plugin, (responsive videos) -->
+    <script src="js/jquery.flexslider-min.js"></script><!-- Flexslider -->
+    <script src="js/jquery.easing.min.js"></script><!-- Easing plugin, for opacity fade on menu background images -->
+
+    <script src="js/jquery.mixitup.min.js"></script><!-- MixItUp plugin - for sortable portfolio -->
+    
+    <script src="js/scripts.js"></script><!-- Custom JS functions - always load last -->
+
+
+    <!-- Page-specific JS functions - these are functions that only occur on this specific page, so we DON'T want these placed in our scripts.js file as this file is loaded on every page for global site functions.  -->
+
+    <!-- Initialize CounterUp plugin for rounding up/animated statistics -->
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+
+    <!-- Initialize fitvids.js plugin for responsive videos -->
+    <script>
+        $(document).ready(function(){
+            $(".fitvids").fitVids();
+        });
+    </script>
+
+    <!-- Teamimonials Carousel -->
+    <script>
+        $(document).ready(function(){
+            $('#testo-carousel').carousel({
+                pauseOnHover: true,
+                interval: 4000,
+            });
+        });
+    </script>
+
+    <!-- Initialize flexslider for blogfeed slider -->
+    <script>
+        // second-flexslider
+        $(window).load(function() {
+          $('#blogslider').flexslider({
+            animation: "slide",
+            directionNav: false,
+            controlNav: false,
+            touch: false,
+            slideshow: false
+          });
+        });
+        $('.prev, .next').on('click', function() {
+          var href = $(this).attr('href');
+          $('#blogslider').flexslider(href)
+          return false;
+        })
+    </script>
+
+
+    <!-- ========== per pagina portfolio ========== -->
+
+    <!-- Initialize MixItUp plugin -->
+    <script>
+      $(function () {
+      var filterList = {
+        init: function () {
+        
+          $('#projects').mixitup({
+            targetSelector: '.projects',
+            filterSelector: '.filter',
+            effects: ['fade'],
+            easing: 'snap',
+            // call the hover effect
+            onMixEnd: filterList.hoverEffect()
+          });       
+        
+        },
+        
+        hoverEffect: function () {
+          // Hover Effect
+          $('#projects .projects').hover(
+            function () {
+              $(this).find('.label').stop().animate({opacity: 1}, 200, 'easeOutQuad');
+              $(this).find('.label-text h3').stop().animate({top: 0}, 200, 'easeOutQuad');
+            },
+            function () {
+              $(this).find('.label').stop().animate({opacity: 0}, 200, 'easeInQuad');
+              $(this).find('.label-text h3').stop().animate({top: '20px'}, 200, 'easeInQuad');
+            }   
+          );
+        }
+
+      };
+      filterList.init();
+      });
+    </script>
+
+    <!-- Initialize Owl carousel/slider with desired settings - see http://owlgraphic.com/owlcarousel/#how-to for more options -->
+    <script>
+        $("#slider").owlCarousel({
+          autoPlay : false,
+          stopOnHover : true, //Set AutoPlay to 3 seconds
+          items : 2,
+          itemsDesktop: [1199,2],
+          itemsDesktopSmall: [979,2],
+          itemsTablet: [768,2],
+          itemsMobile: [479,1],
+          rewindNav : false,
+          navigation: true,
+          pagination: false,
+          autoHeight: false,
+          navigationText : ['<span class="icon-arrow-left2"></span>','<span class="icon-arrow-right2"></span>']
+        });
+    </script>
+
+
+    <!-- ========== Insert your Google Analytics code below this line ========== -->
+
+    <script>
+    
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-59845985-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <!-- ======================== End Google Analytics ========================= -->
+
+</body>
+
+</html>
